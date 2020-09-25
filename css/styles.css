@@ -1,0 +1,133 @@
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    padding-right: 50px;
+    font-size: 20px;
+    background-color: lightgrey;
+}
+
+.navbar {
+    position: fixed;
+    margin-left: 250px;
+    background-color: lightgrey;
+}
+
+.main-picture {
+    position: relative;
+    left: 120px;
+}
+
+#header {
+    background-color: lightgrey;
+}
+
+.h1header {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    color: grey;
+}
+
+.h1zone1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    
+}
+
+#zone1 {
+    background-color: #ffdeb3;
+    font-size: 28px;
+    text-align: center;
+}
+
+.textzone1 {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.h1zone2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 320px;
+    margin-bottom: 320px;
+    color: grey;
+}
+
+#zone2 {
+    background-color: lightgrey;
+}
+
+.h1regles {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    font-size: 36px;
+}
+
+#regles {
+    font-size: 26px;
+    text-align: center;
+    background-color: #ffdeb3;
+}
+
+
+.h1packaging {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    color: grey;
+}
+
+#zone3 {
+    text-align: center;
+    background-color: lightgrey;
+}
+
+.textzone3 {
+    margin-top: 250px;
+    margin-bottom: 200px;
+    font-size: 50px;
+    color: grey;
+}
+
+.h1zone3 {
+    margin-top: 100px;
+    font-size: 36px;
+}
+
+#zone4 {
+        text-align: center;
+        background-color: #ffdeb3;
+}
+
+.h1zone4 {
+    margin-bottom: 250px;
+    margin-top: 100px;
+    
+}
+
+.textzone4 {
+    font-size: 46px;
+    margin-bottom: 200px;
+    color: grey;
+}
+
+#zone5 {
+    text-align: center;
+    background-color: lightgrey;
+    color: grey;
+}
+
+.h1zone5 {
+    margin-bottom: 250px;
+    margin-top: 200px;
+}
+
+.textzone5 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 150px;
+}
