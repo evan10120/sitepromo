@@ -1,23 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
 .navbar-light .navbar-nav .nav-link {
-    color: black;
+    color: white;
     padding-right: 50px;
     font-size: 20px;
-    background-color: lightgrey;
+    font-family: Architects Daughter
+;
+
+}
+
+.navbar-brand {
+    position: relative;
+    right: 200px;
 }
 
 .navbar {
     position: fixed;
     margin-left: 250px;
-    background-color: lightgrey;
+    z-index: 3;
+    
+}
+
+.navbar navbar-expand-lg navbar-light {
+    background-image: url(../img/nav.png);
+    background-repeat: no-repeat;
 }
 
 .main-picture {
     position: relative;
     left: 120px;
+    margin-top: 200px;
 }
 
 #header {
-    background-color: lightgrey;
+    background: url(../img/fonddiv1.png);
+    background-size:;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .h1header {
@@ -28,36 +47,66 @@
     color: grey;
 }
 
+.h1header #insta a{
+    width: 10%;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition: transform .2s;
+}
+
+.h1header a:hover {
+     transform: scale(1.2);
+    transition: all .2s ease-in-out;
+}
+
+.h1header #fb a{
+    width: 10%;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
 .h1zone1 {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
+    text-align: left;
+    margin-top: 100px;
     margin-bottom: 50px;
     font-size: 36px;
+    font-family: Architects Daughter;
     
 }
 
 #zone1 {
-    background-color: #ffdeb3;
+    background-color: #bcad90;
     font-size: 28px;
-    text-align: center;
+    text-align: left;
+    color: white
 }
 
 .textzone1 {
-    margin-top: 150px;
+    margin-top: 50px;
     margin-bottom: 150px;
+    font-family: Architects Daughter;
 }
 
 .h1zone2 {
-    display: flex;
-    justify-content: center;
+    position: relative;
     margin-top: 320px;
     margin-bottom: 320px;
-    color: grey;
+    color: white;
+    font-family: Architects Daughter;
 }
 
 #zone2 {
-    background-color: lightgrey;
+    background-color: #bbb4a4;
+    text-shadow: 1px 1px 2px black;
+}
+
+.z2video {
+    ;
+    
 }
 
 .h1regles {
@@ -66,64 +115,106 @@
     margin-top: 100px;
     margin-bottom: 150px;
     font-size: 36px;
+    color: white;
+    font-family: Architects Daughter;
 }
 
 #regles {
     font-size: 26px;
     text-align: center;
-    background-color: #ffdeb3;
-}
+    background: linear-gradient(180deg, #bbb4a4, #6d6359)}
 
+#aregles {
+    color: white;
+}
 
 .h1packaging {
     margin-top: 150px;
     margin-bottom: 150px;
-    color: grey;
+    color: white;
+    font-family: Architects Daughter;
 }
 
 #zone3 {
     text-align: center;
-    background-color: lightgrey;
+    background: linear-gradient(180deg, #6d6359, #bbb4a4);
 }
+
 
 .textzone3 {
     margin-top: 250px;
     margin-bottom: 200px;
     font-size: 50px;
-    color: grey;
+    color: white;
 }
 
-.h1zone3 {
+.azone3 {
     margin-top: 100px;
     font-size: 36px;
+    color: white;
+    font-family: Architects Daughter;
+    background-color: darkgrey;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px black
+    
 }
 
 #zone4 {
-        text-align: center;
-        background-color: #ffdeb3;
+    text-align: center;
+    background-color: #6d6359;
+}
+
+#zone4 p {
+    text-align: right;
+    color: white;
+    font-family: Architects Daughter;
+
 }
 
 .h1zone4 {
     margin-bottom: 250px;
     margin-top: 100px;
+    color: white;
+    font-family: Architects Daughter;
     
 }
 
 .textzone4 {
-    font-size: 46px;
-    margin-bottom: 200px;
-    color: grey;
+    font-size: 40px;
+    margin-bottom: 250px;
+    color: white;
+    text-align: left;
+    font-family: Architects Daughter;
+        
+}
+
+.buyz4 {
+    color: #6d6359;
+    background-color: white;
+    margin-left: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
 }
 
 #zone5 {
     text-align: center;
-    background-color: lightgrey;
+    background: linear-gradient(180deg, #dcd3b4, #656052);
     color: grey;
 }
 
 .h1zone5 {
     margin-bottom: 250px;
     margin-top: 200px;
+    color: white;
+    font-family: Architects Daughter;
+
 }
 
 .textzone5 {

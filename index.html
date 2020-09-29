@@ -8,15 +8,17 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animate.css">
     <title>Site promotionnel - Toumaï</title>
   </head>
   <body>
           
           <!-- Barre de navigation -->
+          
            <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container">
                     <a class="navbar-brand" href="#">
-                    <img src="logogrand.png" width="240px" height="75px" alt="logo">
+                    <img src="img/logogrand.png" width="240px" height="75px" alt="logo" >
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -25,19 +27,19 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item">
-                        <a class="nav-link" href="#header">Accueil </a>
+                        <a class="nav-link js-scrollTo" href="#header">Accueil </a>
                   </li>
                   <li class="nav-item">
-                        <a class="nav-link" href="#zone1">Le jeu</a>
+                        <a class="nav-link js-scrollTo" href="#zone1">Le jeu</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link " href="#regles">Les règles</a>
+                  <a class="nav-link js-scrollTo" href="#regles">Les règles</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link " href="#zone3">Jouez en ligne</a>
+                  <a class="nav-link js-scrollTo" href="#zone3">Jouez en ligne</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link " href="#zone4">Achetez le jeu</a>
+                  <a class="nav-link js-scrollTo" href="#zone4">Achetez le jeu</a>
                   </li>
                 </ul>
               </div>
@@ -50,8 +52,13 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="contenu">
-                            <p class="main-picture"><img src="logogrand.png" width="80%" alt="logo toumai"></p>
-                            <h1 class="h1header">animation/gif</h1>
+                            <p class="main-picture">
+                            <img class="wow pulse animated" style="visibility: visible; animation-duration: 1500ms; animation-iteration-count: infinite; animation-name: pulse;" data-wow-iteration="infinite" data-wow-duration="1500ms" src="img/logogrand.png" width="80%" alt="logo toumai"></p>
+                            <div class="h1header">
+                            <a href="#"><img id="insta" src="img/insta.png" alt="insta"></a>
+                            <a href="#"><img id="fb" src="img/fb.png" alt="fb"></a>
+                            <a href="#"><img id="twitter" src="img/twitter.png" alt="twitter"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -65,8 +72,8 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="contenu">
-                            <h1 class="h1zone1">Rejoignez la tribu</h1>
-                            <p class="textzone1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam animi quas molestias totam in repellat magni et qui ipsum enim ea, nisi laborum incidunt, voluptatibus repellendus deserunt quis dicta. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quia quae non magnam sapiente enim voluptatem dignissimos. Iste, eligendi illum modi dolorum consectetur voluptate animi. Accusamus eos libero, et cupiditate? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam mollitia eligendi, debitis quod. Commodi non, molestiae veritatis. Repellendus eaque laudantium debitis cum, itaque dicta nisi nam excepturi ducimus, commodi officia.
+                            <h1 class="h1zone1">Rejoignez la tribu !</h1>
+                            <p class="textzone1">La nuit tombe, un froid glacial se fait ressentir et des bêtes sauvages menacent votre tribu. Il n’existe qu’un seul moyen pour survivre : le feu. Néanmoins, une seule tribu le possède. Pour l’obtenir à votre tour, il va vous falloir échanger diverses ressources. Entre fourrure, viande et outils, vous allez devoir faire preuve de stratégie pour en acquérir le plus possible afin de les échanger contre le feu. Par ailleurs, n’oubliez pas que les mammouths ont une grande valeur pour cette tribu.
                             </p>
                         </div>
                     </div>
@@ -82,7 +89,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="contenu">
-                            <h1 class="h1zone2">animation</h1>
+                            <h1 class="h1zone2">Décourvrez TOUMAÏ en vidéo</h1>
                         </div>
                     </div>
                 </div>
@@ -96,11 +103,11 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="contenu">
-                            <h1 class="h1regles">Les règles</h1>
+                            <h1 class="h1regles">LES REGLES DU JEU !</h1>
                             
                             <p>Lien vers les règles</p>
                             
-                            <h1 class="h1packaging">packaging / images</h1>
+                            <h1 class="h1packaging">Si vous voulez en savoir plus c'est par ici: <a id="aregles" href="#">règles</a></h1>
                             
                         </div>
                     </div>
@@ -115,8 +122,8 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="contenu">
-                            <h1 class="h1zone3">Jouez en ligne</h1>
-                            <p class="textzone3">images du site dynamique
+                            <a class="azone3">JOUEZ ICI</a>
+                            <p class="textzone3">IFRAME
                             </p>
                         </div>
                     </div>
@@ -131,8 +138,12 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="contenu">
-                            <h1 class="h1zone4">Achetez le jeu</h1>
-                            <p class="textzone4">Boutique
+                            <h1 class="h1zone4">Vous souhaitez commandez votre jeu en version physique ?<br>
+                            Pas de soucis !</h1>
+                            <p class="textzone4">Il vous suffit de cliquer ici :
+                            <a href="#" class="buyz4">ACHETEZ LE !*</a>
+                            </p>
+                            <p>*Vous ne serez pas décus
                             </p>
                         </div>
                     </div>
@@ -148,7 +159,7 @@
                     <div class="col-xl-12">
                         <div class="contenu">
                             <h1 class="h1zone5">Vidéo making of</h1>
-                            <p class="textzone5">Réseaux sociaux
+                            <p class="textzone5">
                             </p>
                         </div>
                     </div>
@@ -163,12 +174,26 @@
 					$.localScroll();
 				});
       </script>
-			
+	
+	<script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>		    		
     <script src="js/jquery.localScroll.min.js" type="text/javascript"></script>
     <script src="js/jquery.scrollTo.min.js" type="text/javascript"></script>
     <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.js-scrollTo').on('click', function() { // Au clic sur un élément
+                var page = $(this).attr('href'); // Page cible
+                var speed = 750; // Durée de l'animation (en ms)
+                $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+                return false;
+            });
+        });
+    </script>
   </body>
 </html>
